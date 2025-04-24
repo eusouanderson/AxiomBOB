@@ -11,10 +11,11 @@
       'md:flex md:gap-8 md:static md:bg-transparent md:flex-row',
       menuOpen ? 'flex flex-col absolute top-16 left-0 w-full bg-black bg-opacity-40 p-4 gap-4 shadow-lg rounded-b-md' : 'hidden'
     ]" class="text-white text-lg font-medium font-poppins">
-      <a href="#home" class="hover:text-cyan-400">Home</a>
-      <a href="#about" class="hover:text-cyan-400">About</a>
-      <a href="#services" class="hover:text-cyan-400">Services</a>
-      <a href="#contact" class="hover:text-cyan-400">Contact</a>
+      <a href="#home" class="hover:text-cyan-400">{{ texts.naveBar.home }}</a>
+      <a href="#about" class="hover:text-cyan-400">{{ texts.naveBar.services }}</a>
+      <a href="#services" class="hover:text-cyan-400">{{ texts.naveBar.aboutUs }}</a>
+      <a href="#contact" class="hover:text-cyan-400">{{ texts.naveBar.contactUs }}</a>
+      <a href="#portfolio" class="hover:text-cyan-400">{{ texts.naveBar.portfolio }}</a>
     </div>
 
     <!-- Menu Toggle (Mobile) -->
@@ -26,6 +27,9 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { useLanguageStore } from '@/store/languageStore';
+import { computed, ref } from 'vue';
 const menuOpen = ref(false)
+const store = useLanguageStore();
+const texts = computed(() => store.texts);
 </script>

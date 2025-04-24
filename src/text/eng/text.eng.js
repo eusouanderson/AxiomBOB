@@ -9,6 +9,13 @@ export default {
     "Axiom B.O.B",
     "                                       ",
   ],
+  naveBar: {
+    home: "Home",
+    services: "Services",
+    aboutUs: "About Us",
+    contactUs: "Contact Us",
+    portfolio: "Portfolio",
+  },
   services: {
     webDevelopment: "Web Development",
     portfolioCreation: "Portfolio Creation",

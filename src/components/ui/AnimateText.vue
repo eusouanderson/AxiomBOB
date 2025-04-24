@@ -3,6 +3,7 @@
     <!-- vídeo no fundo -->
     <video autoplay muted loop playsinline class="bg-video">
       <source src="@/assets/video/video.mp4" type="video/mp4" />
+      <source src="@/assets/video/video.mp4" type="video/webm" />
       Seu navegador não suporta vídeos em HTML5.
     </video>
 
@@ -17,7 +18,6 @@
     </div>
   </div>
 </template>
-
 
 <script setup>
 import { onMounted, ref } from 'vue'
@@ -90,6 +90,7 @@ onMounted(() => {
   runSequence()
 })
 </script>
+
 <style scoped>
 .container {
   position: relative;
@@ -164,7 +165,6 @@ onMounted(() => {
     0 6px 6px rgba(0, 0, 0, 0.4);
 }
 
-/* Cursor responsivo */
 .cursor {
   color: #fbf7f7;
   font-size: 4.5rem;
