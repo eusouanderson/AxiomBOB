@@ -1,0 +1,26 @@
+{
+  "name": "axiombob",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite && npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@tailwindcss/cli": "^4.1.4",
+    "@tailwindcss/vite": "^4.1.4",
+    "pinia": "^3.0.2",
+    "tailwindcss": "^4.1.4",
+    "vue": "^3.5.13",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.2",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "vite": "^6.3.1"
+  }
+}
