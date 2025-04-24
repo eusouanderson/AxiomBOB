@@ -2,7 +2,7 @@
   <div class="container">
     <!-- vídeo no fundo -->
     <video autoplay muted loop playsinline class="bg-video">
-      <source src="@/assets/images/video.mp4" type="video/mp4" />
+      <source src="@/assets/video/video.mp4" type="video/mp4" />
       Seu navegador não suporta vídeos em HTML5.
     </video>
 
