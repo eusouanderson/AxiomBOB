@@ -4,20 +4,23 @@ export default {
     "We offer custom website creation and digital portfolio services for professionals and businesses. With modern designs and intuitive features, we ensure each project is unique and meets our clients' specific needs. From simple websites to full e-commerce platforms, our goal is to create solutions that help our clients stand out online.",
   buttonText: "Change Language",
   dinamicMessage: "Developed with",
-  steps: [
-    "Professionalism",
-    "Creativity",
-    "Innovation",
-    "Security",
-    "Scalability",
-  ],
+  steps: ["Professionalism", "Creativity", "Innovation", "Security"],
 
   naveBar: {
-    home: "Home",
+    website: "Website",
     services: "Services",
     aboutUs: "About Us",
     contactUs: "Contact Us",
     portfolio: "Portfolio",
+    cases: "Cases",
+    hover: {
+      website: "View Website",
+      cases: "View Cases",
+      services: "View Services",
+      aboutUs: "Learn More About Us",
+      contactUs: "Get in Touch with Us",
+      portfolio: "See Our Portfolio",
+    },
   },
   services: {
     webDevelopment: "Web Development",

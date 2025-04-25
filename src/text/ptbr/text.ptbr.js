@@ -3,20 +3,24 @@ export default {
   description:
     "Oferecemos serviços de criação de sites personalizados e portfólios digitais para profissionais e empresas. Com designs modernos e funcionalidades intuitivas, garantimos que cada projeto seja único e atenda às necessidades específicas de nossos clientes. De sites simples a e-commerces completos, nosso objetivo é criar soluções que ajudam nossos clientes a se destacar online.",
   dinamicMessage: "Desenvolvido com",
-  steps: [
-    "Profissionalismo",
-    "Criatividade",
-    "Inovação",
-    "Segurança",
-    "Escalabilidade",
-  ],
+  steps: ["Profissionalismo", "Criatividade", "Inovação", "Segurança"],
 
   naveBar: {
-    home: "Início",
+    website: "Websites",
     services: "Serviços",
     aboutUs: "Sobre Nós",
     contactUs: "Entre em Contato",
     portfolio: "Portfólio",
+    cases: "Cases",
+
+    hover: {
+      website: "Ver Site",
+      cases: "Ver Cases",
+      services: "Ver Serviços",
+      aboutUs: "Saiba Mais Sobre Nós",
+      contactUs: "Entre em Contato Conosco",
+      portfolio: "Veja Nosso Portfólio",
+    },
   },
   services: {
     webDevelopment: "Desenvolvimento de Sites",

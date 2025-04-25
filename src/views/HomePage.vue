@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-black flex flex-col items-center justify-center text-white text-center px-4">
+  <div class="min-h-screen bg-cyan-400 flex flex-col items-center justify-center text-white text-center px-4">
     <section class="w-full mb-8">
       <NavBar />
     </section>
