@@ -3,7 +3,7 @@
     class="fixed top-0 left-0 right-0 z-50 bg-black bg-opacity-30 backdrop-blur-md h-16 px-6 flex items-center justify-between">
     <!-- Logo -->
     <div>
-      <img src="@/assets/icons/logo.png" alt="Logo" class="h-10 bg-purple-200 p-1 rounded" />
+      <img src="@/assets/icons/logo.png" alt="Logo" class="h-10 bg-white p-1 rounded" />
     </div>
 
     <!-- Links -->

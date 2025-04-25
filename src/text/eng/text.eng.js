@@ -3,12 +3,15 @@ export default {
   description:
     "We offer custom website creation and digital portfolio services for professionals and businesses. With modern designs and intuitive features, we ensure each project is unique and meets our clients' specific needs. From simple websites to full e-commerce platforms, our goal is to create solutions that help our clients stand out online.",
   buttonText: "Change Language",
+  dinamicMessage: "Developed with",
   steps: [
-    "WELCOME",
-    "TO",
-    "Axiom B.O.B",
-    "                                       ",
+    "Professionalism",
+    "Creativity",
+    "Innovation",
+    "Security",
+    "Scalability",
   ],
+
   naveBar: {
     home: "Home",
     services: "Services",

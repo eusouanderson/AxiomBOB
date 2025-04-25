@@ -2,12 +2,15 @@ export default {
   greeting: "Bem-vindo",
   description:
     "Oferecemos serviços de criação de sites personalizados e portfólios digitais para profissionais e empresas. Com designs modernos e funcionalidades intuitivas, garantimos que cada projeto seja único e atenda às necessidades específicas de nossos clientes. De sites simples a e-commerces completos, nosso objetivo é criar soluções que ajudam nossos clientes a se destacar online.",
+  dinamicMessage: "Desenvolvido com",
   steps: [
-    "BEM-VINDO",
-    "A",
-    "Axiom B.O.B",
-    "                                       ",
+    "Profissionalismo",
+    "Criatividade",
+    "Inovação",
+    "Segurança",
+    "Escalabilidade",
   ],
+
   naveBar: {
     home: "Início",
     services: "Serviços",

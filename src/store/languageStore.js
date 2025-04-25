@@ -4,8 +4,8 @@ import ptbr from "../text/ptbr/text.ptbr.js";
 
 export const useLanguageStore = defineStore("language", {
   state: () => ({
-    language: "eng",
-    texts: eng,
+    language: "ptbr",
+    texts: ptbr,
   }),
 
   actions: {

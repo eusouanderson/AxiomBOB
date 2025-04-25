@@ -1,4 +1,4 @@
-import App from "@/views/App.vue";
+import App from "@/views/HomePage.vue";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { createPinia } from "pinia";
 import { createApp } from "vue";
